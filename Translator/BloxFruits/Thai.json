@@ -1,0 +1,179 @@
+{
+    "_meta": {
+      "base": "en",
+      "target": "th",
+      "version": "1.0.0"
+    },
+  
+    "common": {
+      "Legit:": { "title": "Legit:" },
+      "Rage:": { "title": "Rage:" },
+      "Utility:": { "title": "Utility:" },
+  
+      "General": { "title": "ทั่วไป" },
+      "Combat": { "title": "ต่อสู้" },
+      "ESP": { "title": "มองผู้เล่น" },
+      "Bounty Hunting": { "title": "ล่าค่าหัวอัตโนมัติ" },
+      "Skills": { "title": "ตั้งค่าสกิล" },
+      "Key Bind": { "title": "คีย์ลัด" },
+      "Misc": { "title": "เบ็ดเตล็ด" },
+      "Server": { "title": "เซิร์ฟเวอร์" },
+      "Config": { "title": "ตั้งค่า" }
+    },
+  
+    "general": {
+      "Vulnerability:": { "title": "ช่องโหว่:" },
+  
+      "Invisible": {
+        "title": "ล่องหน",
+        "desc": "ล่องหนจากผู้เล่นคนอื่น"
+      },
+  
+      "Player Modifier:": { "title": "ปรับแต่งตัวละคร:" },
+  
+      "Speed Multiply": {
+        "title": "คูณความเร็ว",
+        "desc": "เพิ่มความเร็วของผู้เล่นแบบคูณ"
+      },
+      "Speed Boost": {
+        "title": "บูสต์ความเร็ว",
+        "desc": "เปิดเพื่อเร่งความเร็วทันที"
+      },
+      "Jump Power": {
+        "title": "พลังกระโดด",
+        "desc": "เปิดเพื่อเพิ่มพลังการกระโดด"
+      },
+      "Walk On Water": {
+        "title": "เดินบนน้ำ",
+        "desc": "เปิดเพื่อเดินบนน้ำได้"
+      },
+  
+      "Activate Haki:": { "title": "เปิดใช้งานฮาคิ:" },
+      "Buso Haki": { "title": "บูโซฮาคิ", "desc": "เปิดเพื่อใช้งานบูโซฮาคิ" },
+      "Ken Haki": { "title": "เคนฮาคิ", "desc": "เปิดเพื่อใช้งานเคนฮาคิ" },
+  
+      "Ability:": { "title": "ความสามารถ:" },
+      "Race V3": { "title": "เผ่า V3", "desc": "เปิดเพื่อใช้งานเผ่า V3" },
+      "Race V4": { "title": "เผ่า V4", "desc": "เปิดเพื่อใช้งานเผ่า V4" }
+    },
+  
+    "combat": {
+      "Aimbot:": { "title": "เอมบอท:" },
+  
+      "Aimbot (Camera Lock)": {
+        "title": "เอมบอท (ล็อคกล้อง)",
+        "desc": "ล็อคกล้องไปที่เป้าหมาย"
+      },
+      "Silent Aim": {
+        "title": "Silent Aim",
+        "desc": "ช่วยเล็งสกิล/ปืนแบบเงียบ"
+      },
+      "Silent Aim Mode": {
+        "title": "โหมด Silent Aim",
+        "desc": "เลือกโหมดการทำงานของ Silent Aim"
+      },
+      "FOV Circle": {
+        "title": "วง FOV",
+        "desc": "แสดงวง FOV บนหน้าจอ"
+      },
+      "FOV Size": {
+        "title": "ขนาด FOV",
+        "desc": "ปรับขนาดวง FOV"
+      },
+      "FOV Mode": {
+        "title": "ตำแหน่ง FOV",
+        "desc": "เลือกตำแหน่งอ้างอิงของวง FOV"
+      },
+      "Aim Range": {
+        "title": "ระยะเล็ง",
+        "desc": "ระยะการทำงานของเอมบอท"
+      },
+  
+      "Soru:": { "title": "โซรุ:" },
+      "Soru Silent Range": { "title": "ระยะโซรุเงียบ", "desc": "ระยะทำงานของโซรุไปยังเป้าหมาย" },
+      "Soru Silent": { "title": "โซรุเงียบ", "desc": "บังคับโซรุไปที่ตำแหน่งเป้าหมาย" },
+  
+      "Attack Aura:": { "title": "ออร่าตี:" },
+      "Attack Aura": { "title": "Attack Aura", "desc": "โจมตีเป้าหมายรอบตัว (Melee/Sword/Fruit M1)" },
+  
+      "Utility:": { "title": "ยูทิลิตี้:" },
+      "Teleport Behide Target Range": { "title": "ระยะ TP หลังเป้า", "desc": "ระยะเทเลพอร์ตไปด้านหลังเป้าหมาย" },
+      "Teleport Behide Target": { "title": "TP หลังเป้า", "desc": "เทเลพอร์ตไปด้านหลังเป้าหมาย" },
+      "Auto Skills": { "title": "สกิลอัตโนมัติ", "desc": "กดใช้สกิลให้อัตโนมัติ" },
+  
+      "Visualize:": { "title": "แสดงผล:" },
+      "Draw Red Line": { "title": "เส้นแดง", "desc": "วาดเส้นสีแดงล้อมรอบเป้าหมาย" },
+      "Draw Sphere": { "title": "ทรงกลม", "desc": "วาดทรงกลมรอบเป้าหมาย" }
+    },
+  
+    "esp": {
+      "ESP Player:": { "title": "ESP ผู้เล่น:" },
+  
+      "Name": { "title": "ชื่อ", "desc": "แสดงชื่อผู้เล่น" },
+      "Skeleton": { "title": "โครงกระดูก", "desc": "แสดงโครงกระดูกผู้เล่น" },
+      "Health": { "title": "พลังชีวิต", "desc": "แสดง HP ผู้เล่น" },
+      "Distance": { "title": "ระยะ", "desc": "แสดงระยะห่างจากผู้เล่น" },
+      "Team": { "title": "ทีม", "desc": "แสดงทีมของผู้เล่น" },
+      "Level": { "title": "เลเวล", "desc": "แสดงเลเวลของผู้เล่น" },
+      "Bounty": { "title": "ค่าหัว", "desc": "แสดงค่าหัวของผู้เล่น" },
+      "Ken Active": { "title": "เคนทำงาน", "desc": "แสดงสถานะเคน (Ken Active)" },
+      "Pvp State": { "title": "สถานะ PvP", "desc": "แสดงสถานะ InCombat/Disable/Ready" }
+    },
+    
+    "bountyhunting": {
+        "Information:": { "title": "ข้อมูล:" },
+        "Bounty:": { "title": "ค่าหัว:" },
+
+        "Safe Mode:": { "title": "โหมดปลอดภัย:" },
+        "Safe Mode Health": { "title": "พลังชีวิตโหมดปลอดภัย", "desc": "พลังชีวิตโหมดปลอดภัย" },
+        "Safe Mode": { "title": "โหมดปลอดภัย", "desc": "เปิดโหมดปลอดภัย เมื่อ hp ถึงตามที่กำหนดจะวาปไปอยู่ที่โซนปลอดภัย" },
+        
+        "Bounty Hunting:": { "title": "ล่าค่าหัว:" },
+        "Team": { "title": "ทีม", "desc": "เลือกทีมที่จะใช้ล่าค่าหัว" },
+        "Auto Bounty Hunting": { "title": "ล่าค่าหัวอัตโนมัติ", "desc": "เปิดเพื่อล่าค่าหัวอัตโนมัติ" },
+        "Auto Hop Server": { "title": "ย้ายเซิฟล่าค่าหัวอัตโนมัติ", "desc": "เปิดใช้งานย้ายเซิฟล่าค่าหัวอัตโนมัติ" }
+    },
+
+    "skills": {
+      "Skills:": { "title": "สกิล:" },
+  
+      "Fighting Style": { "title": "สไตล์ต่อสู้", "desc": "เลือกสกิลสไตล์ต่อสู้ที่จะใช้" },
+      "Blox Fruit": { "title": "ผลปีศาจ", "desc": "เลือกสกิลผลปีศาจที่จะใช้" },
+      "Sword": { "title": "ดาบ", "desc": "เลือกสกิลดาบที่จะใช้" },
+      "Gun": { "title": "ปืน", "desc": "เลือกสกิลปืนที่จะใช้" },
+  
+      "Holding Skills:": { "title": "สกิลกดค้าง:" },
+      "Use Skill Without Holding": { "title": "ใช้สกิลแบบไม่กดค้าง", "desc": "กดครั้งเดียวให้ทำงานโดยไม่ต้องกดค้าง" },
+      "Select Skill Type": { "title": "เลือกประเภทสกิล", "desc": "เลือกประเภทสกิลที่ต้องการตั้งค่า Delay" }
+    },
+  
+    "keybind": {
+      "Aimbot KeyBind": { "title": "คีย์ลัดเอมบอท", "desc": "ปุ่มสำหรับเปิด/ปิดเอมบอท" },
+      "Teleport Behide Target KeyBind": { "title": "คีย์ลัด TP ไปยังเป้าหมาย", "desc": "ปุ่มสำหรับเปิด/ปิด TP ไปที่เป้าหมาย" },
+  
+      "Mobile Buttons:": { "title": "ปุ่มมือถือ:" },
+      "Show Camera Lock Button": { "title": "แสดงปุ่มล็อคกล้อง", "desc": "แสดง/ซ่อนปุ่ม Camera Lock บนจอ" },
+      "Show TP To Target Button": { "title": "แสดงปุ่ม TP ไปเป้า", "desc": "แสดง/ซ่อนปุ่ม TP ไปเป้า บนจอ" }
+    },
+  
+    "misc": {
+      "Miscellaneous :": { "title": "เบ็ดเตล็ด:" },
+      "Fps Boost": { "title": "บูสต์ FPS", "desc": "เพิ่ม FPS ให้เกมลื่นขึ้น" }
+    },
+  
+    "server": {
+      "Server Information:": { "title": "ข้อมูลเซิร์ฟเวอร์:" },
+      "Copy JobId": { "title": "คัดลอก JobId", "desc": "กดเพื่อคัดลอก JobId ของเซิร์ฟเวอร์นี้" },
+      "JobId": { "title": "JobId", "desc": "JobId เป้าหมายที่ต้องการเทเลพอร์ตไป" },
+      "Teleport": { "title": "เทเลพอร์ต", "desc": "เทเลพอร์ตไปยัง JobId ที่ระบุ" },
+      "Rejoin": { "title": "เข้าใหม่", "desc": "เข้าเซิร์ฟเวอร์เดิมอีกครั้ง" }
+    },
+  
+    "config": {
+      "Config:": { "title": "ตั้งค่า:" },
+      "Save Config": { "title": "บันทึกค่า", "desc": "บันทึกค่าปัจจุบัน" },
+      "Reset Config": { "title": "รีเซ็ตค่า", "desc": "ล้างค่าทั้งหมด" },
+      "Wipe Workspace": { "title": "ล้าง Workspace", "desc": "ลบไฟล์ทั้งหมดใน workspace" }
+    }
+  }
+  
