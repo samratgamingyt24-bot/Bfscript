@@ -94,7 +94,7 @@
       "Soru Silent": { "title": "โซรุเงียบ", "desc": "บังคับโซรุไปที่ตำแหน่งเป้าหมาย" },
   
       "Attack Aura:": { "title": "ออร่าตี:" },
-      "Attack Aura": { "title": "Attack Aura", "desc": "โจมตีเป้าหมายรอบตัว (Melee/Sword/Fruit M1)" },
+      "Attack Aura": { "title": "M1 On", "desc": "โจมตีเป้าหมายรอบตัว (Melee/Sword/Fruit M1)" },
   
       "Utility:": { "title": "ยูทิลิตี้:" },
       "Teleport Behide Target Range": { "title": "ระยะ TP หลังเป้า", "desc": "ระยะเทเลพอร์ตไปด้านหลังเป้าหมาย" },
